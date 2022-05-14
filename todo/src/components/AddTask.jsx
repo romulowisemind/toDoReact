@@ -4,4 +4,4 @@ const AddTask = () => {
   return <input type="text" />;
 };
 
-export default Task;
+export default AddTask;
