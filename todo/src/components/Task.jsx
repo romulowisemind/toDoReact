@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 import "./Task.css";
 
 const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
-  const history = useHistory;
+  const history = useHistory();
 
   const handleTaskDetailsClick = () => {
     history.push(`/${task.title}`);
